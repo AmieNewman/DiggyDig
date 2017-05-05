@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Amie\Source\Repos\DiggyDig\WpfApp1\obj\Debug\
+C:\Users\Amie\Documents\Visual Studio 2017\Projects\WpfApp1\obj\Debug\
 WpfApp1
 none
 false
 DEBUG;TRACE
-C:\Users\Amie\Source\Repos\DiggyDig\WpfApp1\App.xaml
+C:\Users\Amie\Documents\Visual Studio 2017\Projects\WpfApp1\App.xaml
 5-1040377707
 
 9-709172288
 14-1787462521
 About_Window.xaml;Difficulty_Window.xaml;Game_Over_Window.xaml;Game_Window.xaml;MainWindow.xaml;
 
-True
+False
 

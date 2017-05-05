@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Game_Over_Window" Height="300" Width="300">
+        Title="Game_Over_Window" Height="300" Width="300" Background="BurlyWood">
     <Grid>
-        <Button x:Name="Go_back_btn" Content="Go back to start" Click="Go_back_btn_Click" HorizontalAlignment="Center" Margin="96,126,91,123" VerticalAlignment="Center" Width="105"/>
+        <Button x:Name="Go_back_btn" Content="Go back to start" Click="Go_back_btn_Click" HorizontalAlignment="Center" Margin="96,89,91,160" VerticalAlignment="Center" Width="105"/>
 
     </Grid>
 </Window>

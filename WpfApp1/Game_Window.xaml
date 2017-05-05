@@ -12,5 +12,24 @@
         </Grid>
         <TextBox x:Name="countdown" HorizontalAlignment="Left" Height="44" Margin="10,415,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="156" FontSize="30" IsReadOnly="True"/>
         <TextBox x:Name="scoreandlives" HorizontalAlignment="Left" Height="44" Margin="225,415,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" FontSize="30" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Height="42" Margin="46,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontSize="20" FontFamily="Showcard Gothic" RenderTransformOrigin="0.5,0.5" Foreground="#FFF5F3F3">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-11.272"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Can You Dig it? ......"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="266,346,0,0" TextWrapping="Wrap" Text="YES YOU CAN!!!" VerticalAlignment="Top" Width="158" FontSize="20" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" FontFamily="Showcard Gothic" Foreground="#FFF9F7F7">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="14.293"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
     </Grid>
 </Window>

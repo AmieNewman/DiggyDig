@@ -19,6 +19,7 @@ namespace WpfApp1
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
+        // main window page
     {
         private string difficulty = "Easy";
         private string backgroundpath = System.IO.Path.Combine(Environment.CurrentDirectory, @"images\background1.jpg");
@@ -42,6 +43,9 @@ namespace WpfApp1
         {
             difficulty = given_diff;
             InitializeComponent();
+            ImageBrush image = new ImageBrush(new BitmapImage(new Uri(backgroundpath)));
+            image.Stretch = Stretch.Fill;
+            this.Background = image;
             double screenWidth = System.Windows.SystemParameters.PrimaryScreenWidth;
             double screenHeight = System.Windows.SystemParameters.PrimaryScreenHeight;
             double windowWidth = this.Width;

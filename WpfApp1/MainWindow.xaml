@@ -10,7 +10,14 @@
         <Button x:Name="Start_btn" Content="Start Game" Click="Start_btn_Click" Margin="220,126,0,0" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75"/>
         <Button x:Name="About_btn" Content="About" Click="About_btn_Click" HorizontalAlignment="Left" Margin="220,151,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="Difficulty_btn" Content="Change Difficulty" Click="Difficulty_btn_Click" HorizontalAlignment="Left" Margin="209,176,0,0" VerticalAlignment="Top" Width="97"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="NoWrap" VerticalAlignment="Top" Margin="131,21,0,0" Height="100" Width="253" FontSize="40"><Run Text=" Minesweeper"/><LineBreak/><Run Text="   Battleship"/></TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="NoWrap" VerticalAlignment="Top" Margin="131,21,0,0" Height="86" Width="290" FontSize="60" Text="Diggy Dig" FontStyle="Italic" FontWeight="Bold">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
     </Grid>
 </Window>

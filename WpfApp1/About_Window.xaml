@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="About_Window" Height="300" Width="300">
+        Title="About_Window" Height="300" Width="300" Background="Bisque">
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="45,41,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="166" Width="179"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="55,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="149" Width="179" FontSize="10"><Run Text="-Mines are hidden through the board; they explode on impact so be careful because 3 hits and you lose."/><LineBreak/><Run Text="-Gold is worth 10 points so try to collect as much as you can before the time runs out! "/><LineBreak/><Run Text="-Game is over when you lose 3 lives OR the timer hits 0. "/><LineBreak/><Run Text="-The board changes each time you press start, so memorizing the spots will not help you!!"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="59" Margin="55,29,0,0" TextWrapping="Wrap" Text="Facts about the game:" VerticalAlignment="Top" Width="146" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="191,242,0,0" TextWrapping="Wrap" Text="-Amie " VerticalAlignment="Top" Width="58" FontSize="8" FontStyle="Italic" FontFamily="Tempus Sans ITC" FontWeight="Bold"/>
 
     </Grid>
 </Window>

@@ -136,6 +136,7 @@ namespace WpfApp1
 
         void Create_Grid(string difficulty)
             //difficulty settings that change size of board based on the level. given the difficulty, it makes the game board 
+            //never changed variable names, but the ships and mines are...mines...and gold
         {
             if (difficulty == "Easy")
             {
@@ -219,7 +220,11 @@ namespace WpfApp1
                         buttons.Children.Add(b);
                     }
                 }
-                //
+                //timer again
+                timer.Tick += new EventHandler(timerCount);
+                timer.Interval = new TimeSpan(0, 0, 1);
+
+                timer.Start();
             }
 
             else
@@ -262,7 +267,12 @@ namespace WpfApp1
                         buttons.Children.Add(b);
                     }
                 }
-                //
+                //timer again ( had to do it multiple times to work in code for each difficulty/instance 
+                timer.Tick += new EventHandler(timerCount);
+                timer.Interval = new TimeSpan(0, 0, 1);
+
+                timer.Start();
+
             }
         }    
 
